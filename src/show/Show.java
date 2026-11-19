@@ -31,7 +31,7 @@ public class Show {
 
     public void addNewActor(Actor actor){
         if (!listOfActors.containsValue(actor)){
-            listOfActors.put(actor.surname,actor);
+            listOfActors.put(actor.getSurname(),actor);
             System.out.println("Актер успешно добавлен!");
         } else {
             System.out.println("Такой актер уже участвует в постановке!");
