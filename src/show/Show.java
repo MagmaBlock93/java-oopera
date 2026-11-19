@@ -1,3 +1,8 @@
+package show;
+
+import person.Actor;
+import person.Director;
+
 import java.util.HashMap;
 
 public class Show {

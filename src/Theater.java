@@ -1,3 +1,11 @@
+import person.Actor;
+import person.Director;
+import person.Gender;
+import person.Person;
+import show.Ballet;
+import show.Opera;
+import show.Show;
+
 public class Theater {
 
     public static void main(String[] args) {
